@@ -1,0 +1,247 @@
+body,a{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	
+
+}
+
+header{
+	display: inline-block;
+	background: tomato;
+	display: flex;
+	color: white;
+	
+}
+
+#site{
+	margin: 8px;
+	font-size: 25px;
+	padding: 8px;
+	padding-left: 40px;
+	color: white;
+}
+
+nav{
+	padding: 6px 20px 8px 0;
+	height: 10px;
+	display: inline-block;
+	width: 1024px;
+	text-align: right;
+}
+
+ li{
+	padding-left: 15px;
+	padding-right: 5px; 
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	font-size: 18px;
+}
+
+ a{
+	color: #fff;
+}
+
+nav a:hover{
+	background: white;
+	color: #000;
+	height: 450px;
+	padding: 25px 5px 20px 5px;
+}
+
+#about{
+	display:flex ;
+	flex-direction: row;
+	height: 290px;
+	
+}
+
+.about{
+	text-align: center;
+}
+
+.description{
+	margin: 10px;
+	padding:30px 0 0 90px; 
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+
+.image img{
+	border-radius: 70%;
+	width: 250px;
+	height: 250px;
+	margin-left:180px; 
+}
+
+/*interests section*/
+
+
+#interests{
+	height: 370px;
+	background: #333;
+	text-align: center;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.interests-heading{
+	padding-top: 20px;
+
+}
+
+#interests img{
+	padding-left: 30px;
+	padding-top: 10px; 
+}
+
+#interests span{
+	color: red;
+	font-weight: bold;
+}
+
+/*hobbies*/
+#hobbies{
+	background: #DAAB91;
+	height: 400px;
+	text-align: center;
+	color: #fff;
+}
+
+ h2{
+	margin: 0;
+	padding-top: 20px;
+
+}
+
+#hobbies img{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+
+/*reading-list*/
+#reading-list{
+	background: #4DC7BA;
+	height: 420px;
+	text-align: center;
+	color: #fff;
+}
+
+#reading-list img{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#movies{
+	background: #DFBA34;
+	height: 470px;
+	text-align: center;
+	color: #fff;
+}
+
+#movies img{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+#social{
+	background: #4DC7BA;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+}
+
+#social img{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+/*pages styling*/
+
+/*Schedule page*/
+h3{
+	text-align: center;
+}
+
+.schedule{
+	padding: 40px;
+}
+
+/*registration page*/
+table{
+	margin-bottom:280px; 
+}
+
+
+
+/*interest page*/
+#websites{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	padding: 50px 90px 30px 60px; 
+	color: #000;
+	grid-gap: 90px 30px;
+}
+
+
+.websites h2 a{
+		color: navy;
+		padding: 0;
+		margin: 0;
+}
+
+.websites{
+	padding-top: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#websites p{
+	padding:0;
+}
+
+
+/*
+#medium{
+	display: inline-grid;
+	grid-template-columns: 50% 50%;
+	width: 100%;
+	padding: 30px;
+	
+}*/
+
+
+
+
+
+
+
+.footer{
+	margin: 0;
+}
+
+
+
+footer{
+	background: #41556D;
+	width: 1263px;
+	height:40px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0 0 0 ;
+	display: block;
+	color: #fff;
+}
+
+
+
+ span{
+	color: red;
+	font-weight: bold;
+}
